@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    overflow-x: hidden;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  body {
+  
+    background-color: #f0f0f0;
+    background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(images/bg-1234.jpg);
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  .nav{
+    margin: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .hero{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content{
+    text-align: center;
+  }
+  h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  div p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+  }
+  .foot{
+    font-size: 16px;
+  }
+  
+  .btn{
+    border-radius: 5px;
+    background-color:#f44336;
+    padding: 0.8rem 2.3rem;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px #0000003f ;
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    margin-left: 300px;
+}
+.btn:before{
+    content:"";
+    border-radius: 5px;
+    background-color: rgb(45, 45, 46);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: 0.8s;
+    z-index: -1;
+
+
+}
+.btn:hover::before{
+ transform:scaleX(1);
+}
+  footer {
+    
+    color: #fff;
+    text-align: center;
+   
+  }
+  .logo{
+    width: 150px;
+    float: left;
+    height: auto;
+    margin-left: 10px;
+  
+}
+.no{
+    float: right;
+    margin:29px;
+}
+    
+    .nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 5px;
+    }
+    .nav ul li a{
+        text-decoration:none;
+        text-transform: uppercase;
+        padding: 8px 20px;
+        border: 1px solid white;
+        color:white;
+        transition: 0.5s ease;
+    }
+    ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+    .img-welcome{
+      position: absolute;
+      bottom: 45%;
+      right: 34%;
+    }
+    .btn a{
+      color: white;
+    }
+    
